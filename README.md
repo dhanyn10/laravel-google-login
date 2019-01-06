@@ -7,6 +7,7 @@ This repo already installed required dependencies:
 2. [Guzzle](https://github.com/guzzle/guzzle)  
 --------------------------------------------------
 ## Google Console API Configuration
+__I assume that you already understand about how to configure your own laravel project.__  
 Make sure you've configured ```CLIENT_ID```, ```CLIENT_SECRET```, ```API_KEY/DEVELOPER_KEY```,
 and ```URI_REDIRECT```.  
 Location : ```UserController.php``` and ```web.php```.
