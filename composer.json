@@ -1,6 +1,6 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "name": "laravel-google-login",
+    "description": "Simple implementation third party service login with google",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
