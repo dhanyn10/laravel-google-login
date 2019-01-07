@@ -17,6 +17,7 @@ If you dont have Project in Google Console API that can be connected to this *la
 ![crete new project](create-new-project.png)
 
 Skip above steps if you already created a project  
+--------------------------------------------------
 Make sure you've configured ```CLIENT_ID```, ```CLIENT_SECRET```, ```API_KEY/DEVELOPER_KEY```,
 and ```URI_REDIRECT```.  
 Location : ```app/Http/Controllers/UserController.php```.
