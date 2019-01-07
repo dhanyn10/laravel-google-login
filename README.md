@@ -24,17 +24,17 @@ and ```URI_REDIRECT```.
 Location : ```app/Http/Controllers/UserController.php```.
 These configuration can be found at Google Console API
 1. for ```API_KEY/DEVELOPER_KEY```  
-![DEVELOPER_KEY](https://raw.githubusercontent.com/dhanyn10/laravel-google-login/master/api-key.png)  
+![DEVELOPER_KEY](api-key.png)  
 2. for ```CLIENT_ID``` and ```CLIENT_SECRET```  
-![Oauth](https://raw.githubusercontent.com/dhanyn10/laravel-google-login/master/client-oauth.png)  
+![Oauth](client-oauth.png)  
 3. for ```URI_REDIRECT```  
-![Oauth](https://raw.githubusercontent.com/dhanyn10/laravel-google-login/master/uri-redirect.png)  
+![Oauth](uri-redirect.png)  
 --------------------------------------------------
 ## Other Configuration  
 Fix problem [cacert](http://stackoverflow.com/questions/30240840/laravel-5-socialite-curl-error-77-error-setting-certificate-verify-locations)  
 1. Download file [cacert.pem](https://curl.haxx.se/ca/cacert.pem)  
 2. Save as ```cacert.pem.txt``` to ```C:/xampp/php/```  
 3. Open php ini  
-![Oauth](https://raw.githubusercontent.com/dhanyn10/laravel-google-login/master/open-php-ini.png)  
+![Oauth](open-php-ini.png)  
 4. Search ```php.ini Options```  add new line ```curl.cainfo = "C:\xampp\php\cacert.pem.txt"``` and save  
-![Oauth](https://raw.githubusercontent.com/dhanyn10/laravel-google-login/master/php-ini-cacert.png)
+![Oauth](php-ini-cacert.png)
