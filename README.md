@@ -8,6 +8,15 @@ This repo already installed required dependencies:
 --------------------------------------------------
 ## Google Console API Configuration
 __I assume that you already understand about how to configure your own laravel project.__  
+  
+If you dont have Project in Google Console API that can be connected to this *laravel google login*, then you need to create a project. Here's the tutorial:  
+1. Go to Google Console API page
+2. Click to project
+![project](check-project.png)
+3. Create new project
+![crete new project](create-new-project.png)
+
+Skip above steps if you already created a project  
 Make sure you've configured ```CLIENT_ID```, ```CLIENT_SECRET```, ```API_KEY/DEVELOPER_KEY```,
 and ```URI_REDIRECT```.  
 Location : ```app/Http/Controllers/UserController.php```.
