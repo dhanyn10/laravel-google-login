@@ -11,9 +11,9 @@ __I assume that you already understand about how to configure your own laravel p
   
 If you dont have Project in Google Console API that can be connected to this *laravel google login*, then you need to create a project. Here's the tutorial:  
 1. Go to Google Console API page
-2. Click to project
+2. Click to project  
 ![project](check-project.png)
-3. Create new project
+3. Create new project  
 ![crete new project](create-new-project.png)
 
 Skip above steps if you already created a project  
