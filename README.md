@@ -6,9 +6,11 @@ This repo already installed required dependencies:
 1. [Google API php client](https://github.com/google/google-api-php-client)  
 2. [Guzzle](https://github.com/guzzle/guzzle)  
 --------------------------------------------------
-## Google Console API Configuration
-__I assume that you already understand about how to configure your own laravel project.__  
---------------------------------------------------
+## Google Console API Configuration  
+
+__I assume that you already understand about how to configure your own laravel project.__
+
+-------------------------------------------
 If you dont have Project in Google Console API that can be connected to this *laravel google login*, then you need to create a project. Here's the tutorial:  
 1. Go to Google Console API page
 2. Click to project  
