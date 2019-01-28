@@ -1,4 +1,4 @@
-# Laravel 5.4.* Login with Google
+# Laravel 5.7.* Login with Google [not tested yet]
 [![devDependencies Status](https://david-dm.org/dhanyn10/laravel-google-login/dev-status.svg)](https://david-dm.org/dhanyn10/laravel-google-login?type=dev)
 [![GitHub version](https://badge.fury.io/gh/dhanyn10%2Flaravel-google-login.svg)](https://badge.fury.io/gh/dhanyn10%2Flaravel-google-login)
   
