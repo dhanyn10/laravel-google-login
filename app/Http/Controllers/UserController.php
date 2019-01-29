@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\User;
+
 class UserController extends Controller
 {
     public function loginWithGoogle(Request $req)
@@ -39,20 +40,28 @@ class UserController extends Controller
             //get details from google using access token
             $userInfo = $googleOauthv2->userinfo->get();  
 
-            $req->session()->put('name', $userInfo['name']);
             if ($user = User::where('email',$userInfo['email'])->first())
             {
                 //logged your user via auth login
                 //do something when user with these email already registered in website
+                
+                //create session
+                session([
+                    //store session google user value, your name
+                    'googleuser'    => $userInfo['name']
+                ]);
             }else{
                 //register your user with response data
+                User::create([
+                    'username'  => $userInfo['name'],
+                    'email'     => $userInfo['email']
+                ]);
+                //create session
+                session([
+                    //store session google user value, your name
+                    'googleuser'    => $userInfo['name']
+                ]);
             }
-            
-            //create session
-            session([
-                //store session google user value, your name
-                'googleuser'    => $userInfo['name']
-            ]);
             //redirect to index page
             return redirect()->route('index');
         }
