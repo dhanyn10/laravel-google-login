@@ -16,12 +16,12 @@ class User extends Authenticatable
      */
     
     protected $table        = 'user';
-    protected $primaryKey   = 'username';
+    protected $primaryKey   = 'id';
     public $timestamps      = false;
-    public $incrementing    = false;
+    public $incrementing    = true;
     
     protected $fillable = [
-        'username', 'email', 'password',
+        'username', 'email'
     ];
 
     /**
@@ -29,7 +29,5 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $hidden = [
-        'password', 'remember_token',
-    ];
+    protected $hidden = ['remember_token'];
 }
